@@ -1,0 +1,51 @@
+1 the first screen that appear after an app is launched as__?
+component activity
+main activity
+screen class
+That’s correct! By default the Main Activity is the first screen that appears after an app is launched.
+2 what are the advantages of using jetpack compose for ui elements?
+//itsimplifies the development of Ul components for Android applications
+That's correct! This is a feature of Jetpack Compose.
+It builds a UI without needing to use an Activity.
+itcan help build a Ul using less code
+//That's correct! This is a feature of Jetpack Compose.
+ithelps developers maintain a consistent UI across multiple devices and platforms such as Android, iOS and the web.
+//That's correct! This is a feature of Jetpack Compose.
+3 what is the purpose of viewgroup when building an android ui?
+To provide a better organization of views.
+Correct
+That's correct! Using View, groups the structure of the user interface.
+To define the navigation paths between screens
+Correct
+That's correct! View Groups aid the connection of multiple UI screens.
+To replace the use of TextView
+To allow for the creation of complex user interfaces.
+Correct
+That's correct! Along with Views and Layouts, View Groups aid the building of a more complex UI.
+4 which of the folllowing are commonly used viewgroup in android ui?
+ActivityView
+Button
+Correct
+That’s correct. A button allows user input.
+ImageView
+Correct
+That's correct. ImageView displays images.
+ButtonView
+TextView
+Correct
+That’s correct. TextView is used to display text.
+TextField
+Correct
+5 which are the following are layout views that can be used in android UI element?
+grid layout
+LinearLayout
+//both above is correct
+UlLayout
+ViewLayout
+RelativeLayout
+Correct
+That's correct. A Relative Layout specifies the position of contained views relative to each other.
+
+
+
+
