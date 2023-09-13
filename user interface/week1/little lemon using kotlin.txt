@@ -1,0 +1,34 @@
+Mainactivity.kt-----
+class MainActivity : AppCompatActivity() {
+    lateinit var toplayout : LinearLayout
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+        toplayout=findViewById(R.id.toplayout)
+        toplayout.setBackgroundColor(Color.parseColor("#495E57"))
+        var textview=TextView(this)
+        textview.text=resources.getText(R.string.Little_Lemon)
+        textview.setTextColor(Color.parseColor("#F4CE14"))
+        toplayout.addView(textview)
+
+
+    }
+}
+strings.xml-------
+<resources>
+    <string name="app_name">Your App Name</string>
+    <string name="Little_Lemon">little_lemon</string>
+    <string name="order">order takeaway</string>
+</resources>
+activity_main.xml-------
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/toplayout"
+    tools:context=".MainActivity" >
+</LinearLayout>
