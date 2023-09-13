@@ -1,0 +1,12 @@
+using compasable function 
+mainactivity------
+use ctrl+alt+o for optimazation as it cut down unnecessary import
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContent {
+               Text(text = "little lemon", fontSize = 32.sp,    //use alt+enter to import sp
+                   color= Color(0xFFF4CE14))
+        }
+    }
+}
