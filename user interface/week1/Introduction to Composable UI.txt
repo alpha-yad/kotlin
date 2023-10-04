@@ -1,0 +1,34 @@
+1 Declarative UI programming allows developers to define the Ul and its behavior in a concise and expressive way by describing the desired result instead of the details
+of how to achieve it.
+-> True
+ False
+answer true
+That's correct. This describes the concept behind Jetpack Compose's declarative UI programming model.
+2 In Jetpack Compose the ‘Compose’ item can best be described as:
+ Compose is a tool that builds a UI without needing to use an Activity
+-> A reusable view component.
+-> A library for developing UI that is part of jetpack suite
+That's correct! Compose is an atomic Ul element and is part of the Jetpack compose library.
+3 What are the three main benefits to using a declarative approach when building an Android UI? Select all that apply.
+ Reduced need for unit tests
+-> Improved performance
+ Less complex UI components
+-> More succinct code
+->Easier to read and debug code
+That’s correct! This can be a benefit of the declarative approach.
+4 In this code,a composable function is defined. What is the name of this function?
+1 @Composable
+2 fun MainPanel(name: String) {
+3 Text(text = "$name")
+}
+answer:- MainPanel
+5 In this code, a composable function is defined. In the second-last code line the “name” argument is passed to another function Text. What is the best description of this
+function?
+1 @Composable
+2 fun MainPanel(name: String) {
+3 Text(text = "Sname")
+}
+ A function written by the developer.
+-> A built-in composable function in the Compose library.
+ A variable
+That's correct! Text, is a built-in composable function in Compose library and it is responsible for creating the text UI element that appears on the screen.
